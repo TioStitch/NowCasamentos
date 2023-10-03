@@ -1,0 +1,8 @@
+name: NowCasamentos
+author: TioStitch
+version: 1.0
+main: de.tiostitch.casamentos.Main
+description: Um sistema básico de casamentos entre jogadores.
+commands:
+  cs:
+    description: O comando principal do plugin.

@@ -1,0 +1,31 @@
+settings:
+  casamento-broadcast: true #Envia a mensagem 'casamento-geral'
+  expirar-pedido: 15 #Este tempo é em segundos.
+  sacanear-negado: true #Envia a mensagem 'sacanear-negado'
+
+messages:
+  receber-pedido-casamento: "&b&lNowCasamentos &b%pedidoPor% &aenviou um pedido de casamento para você."
+  enviado-pedido-casamento: "&b&lNowCasamentos &aVocê enviou um pedido de casamento para &b%enviadoPara%"
+  divorciar: "&b&lNowCasamentos &cDivorciou-se de você!"
+  eu-divorciei: "&b&lNowCasamentos &cVocê se divorciou!"
+
+  negado-pedido-casamento: "&b&lNowCasamentos &cVocê negou o pedido de casamento!"
+  aceito-pedido-casamento: "&b&lNowCasamentos &aVocê aceitou o pedido de casamento!"
+
+  #Enviado para todos os jogadores do servidor.
+  casamento-geral: "&b&lNowCasamentos &b%casado% &acasou-se com &b%casada%"
+  divorcio-geral: "&b&lNowCasamentos &c%divorciadoPor% divorciou-se de %divorciado%"
+  sacanear-negado: "&b&lNowCasamentos &b%negado% &avocê levou um bolo! HaHa"
+
+  esta-casado: "&b&lNowCasamentos &cVocê já está casado!"
+  outro-casado: "&b&lNowCasamentos &cO jogador já é casado!"
+  nao-esta-casado: "&b&lNowCasamentos &cVocê não está casado com este jogador!"
+  nao-outro-casado: "&b&lNowCasamentos &cEste jogador não está casado com você!"
+  status:
+    - "&a&lSTATUS DO JOGADOR\n"
+    - "&7\n"
+    - "&7Jogador: &a%name%\n"
+    - "&7Estado: &a%status%\n"
+    - "&7\n"
+    - "&7Últimos divórcios:\n"
+    - "&c%divorcios%\n"
